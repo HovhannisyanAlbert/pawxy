@@ -1,0 +1,92 @@
+body{
+    background-color: aliceblue;
+}
+.title_blcok{
+    text-align: center;
+}
+.title_blcok > h2{
+    display: inline-block;
+    margin-left: 5px;
+}
+.gcse-search{
+    margin: 20PX auto;
+    text-align: center;
+    position: relative;
+    width: 50vw;
+}
+#input-box{
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    
+}
+#button{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+    cursor: pointer;
+}
+.block_forYoutube{
+    padding: 25px 20px;
+    border:  1px solid lavender;
+}
+.inner_box{
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+    
+}
+.inner_box:hover{
+    border: 1px solid salmon;
+}
+.inner_box > img{
+    object-fit: contain;
+}
+.text_box > h2 {
+    font-size: 2vw;
+}
+.text_box > h3{
+    font-size:  1vw;
+    
+}
+.text_box{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 75px;
+}
+.text_box > .info {
+    align-self: flex-start;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.span{
+    color: brown;
+}
+.body{
+    padding: 50px 0;
+}
